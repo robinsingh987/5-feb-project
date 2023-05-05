@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* NAV BAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 94px;
+    background-color: #000;
+}
+.grow-list{
+    flex-grow: 1;
+}
+img{
+    width: 92px;
+    height: 32px;
+}
+.line{
+    height: 50px;
+    width: 1px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-left: 64px;
+}
+ul li:hover{
+    text-decoration: underline;  
+}
+   
+
+
+.logo,.list-item{
+    cursor: pointer;
+}
+
+.button-small{
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button-small:hover{
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid yellow;
+    
+}
+
+/*HERO SECTION*/
+.hero{
+    background-image: url(pexels-umar-mukhtar-1538177.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+    text-align: center;
+}
+.hero-heading{
+    max-height: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 172px;
+} 
+.hero-description{
+    font-family:"Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    color: #ffffff;
+}
+.button-large{
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.button-large:hover{
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid yellow;
+
+}
